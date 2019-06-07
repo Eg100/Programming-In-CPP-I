@@ -1,0 +1,10 @@
+a) Comment out using namespace std
+   It will not be compiled 
+   error: cout, endl, cin, string was not declared in the scope
+   suggested alternative: std::cout, std::endl, std::cin,
+                          std::__cxx11::string.
+
+b) Remove Critter:: prefix in one of the methods
+   I am removing the prefix in the first method(setName())
+   error: ‘name’ was not declared in this scope
+   We should specify the name of the class it belongs to
